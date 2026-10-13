@@ -11,7 +11,7 @@ Atakum Belediyesi Sağlık İşleri Müdürlüğü için vatandaş odaklı onlin
 - Uygun tarih / saat seçimi (API + SQLite)
 - Kişisel bilgi formu ve SMS doğrulama (mock)
 - KVKK aydınlatma metni onayı
-- Randevu özeti, onay ve başarı ekranı (`ATK-YYYYMMDD-NNN`)
+- Randevu özeti, onay ve başarı ekranı 
 - Randevularımı Gör (telefon + SMS)
 - Uzman paneli: kendi randevuları, durum güncelleme, saat kapatma
 - İletişim bilgileri ve harita
@@ -31,7 +31,7 @@ npm run dev
 ```
 
 - Web: [http://127.0.0.1:3030](http://127.0.0.1:3030)
-- API: [http://127.0.0.1:3031](http://127.0.0.1:3031) (`/api/*`; Vite proxy ile de erişilir)
+- API: [http://127.0.0.1:3031](http://127.0.0.1:3031) 
 
 ## Sunum kimlik bilgileri
 
