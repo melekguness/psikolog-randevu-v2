@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Kurumsal uzman yer tutucu SA">
+  <title>Kurumsal yer tutucu avatar — gerçek kişi fotoğrafı değildir</title>
+  <defs>
+    <linearGradient id="bg-sa" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <clipPath id="circle-sa">
+      <circle cx="128" cy="128" r="128"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#circle-sa)">
+    <rect width="256" height="256" fill="url(#bg-sa)"/>
+    <circle cx="128" cy="128" r="118" fill="none" stroke="#94A3B8" stroke-width="2" opacity="0.22"/>
+    <!-- calm arcs / psychology mark -->
+    <path d="M88 148c12-28 28-40 40-40s28 12 40 40" fill="none" stroke="#94A3B8" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+    <path d="M100 156c10-20 20-28 28-28s18 8 28 28" fill="none" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+    <text x="128" y="122" text-anchor="middle" dominant-baseline="middle"
+      font-family="Plus Jakarta Sans, Segoe UI, system-ui, sans-serif"
+      font-size="72" font-weight="700" letter-spacing="0.04em" fill="#FFFFFF">SA</text>
+  </g>
+</svg>

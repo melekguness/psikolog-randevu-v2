@@ -1,0 +1,72 @@
+{
+  "specialists": [
+    {
+      "id": "ps_mehmet_akgun",
+      "department": "psychologist",
+      "fullName": "Uzm. Psk. Tuna Arslan",
+      "title": "Klinik Psikolog",
+      "photoUrl": "/avatars/doctor-male.jpg",
+      "bio": "Bireysel psikolojik danışmanlık ve ruh sağlığı desteği.",
+      "specialties": ["Bireysel Danışmanlık", "Kaygı", "Stres"],
+      "availability": "available",
+      "room": "Danışmanlık B-01",
+      "active": true,
+      "sessionDurationMin": 50,
+      "languages": ["Türkçe"],
+      "acceptsCrisis": true,
+      "experienceYears": 11,
+      "rating": 4.9,
+      "workingDays": ["Pzt", "Sal", "Çar", "Per"],
+      "certificates": ["Bilişsel Davranışçı Terapi"]
+    },
+    {
+      "id": "ps_giray_gundogdu",
+      "department": "psychologist",
+      "fullName": "Uzm. Psk. Ali Güneş",
+      "title": "Aile ve Çift Terapisti",
+      "photoUrl": "/avatars/doctor-male.jpg",
+      "bio": "Çift ve aile danışmanlığı, iletişim odaklı yaklaşımlar.",
+      "specialties": ["Çift Terapisi", "Aile", "İletişim"],
+      "availability": "limited",
+      "room": "Danışmanlık B-03",
+      "active": true,
+      "sessionDurationMin": 50,
+      "languages": ["Türkçe", "İngilizce"],
+      "acceptsCrisis": false,
+      "experienceYears": 4,
+      "rating": 4.8,
+      "workingDays": ["Sal", "Çar", "Per", "Cum"],
+      "certificates": ["Aile Danışmanlığı"]
+    },
+    {
+      "id": "ps_selin_aksoy",
+      "department": "psychologist",
+      "fullName": "Uzm. Psk. Melek Güneş",
+      "title": "Çocuk ve Ergen Psikoloğu",
+      "photoUrl": "/avatars/doctor-female.jpg",
+      "bio": "Çocuk ve ergen ruh sağlığı, oyun terapisi destekli süreçler.",
+      "specialties": ["Çocuk", "Ergen", "Okul Uyumu"],
+      "availability": "available",
+      "room": "Danışmanlık B-05",
+      "active": true,
+      "sessionDurationMin": 45,
+      "languages": ["Türkçe"],
+      "acceptsCrisis": true,
+      "experienceYears": 7,
+      "rating": 4.7,
+      "workingDays": ["Pzt", "Çar", "Cum"],
+      "certificates": ["Oyun Terapisi"]
+    }
+  ],
+  "slotTemplate": {
+    "weekdays": ["1", "2", "3", "4", "5"],
+    "hours": ["09:30", "10:30", "11:30", "13:00", "14:00", "15:00", "16:00"]
+  },
+  "bookedSlotKeys": [
+    "ps_mehmet_akgun|0|09:30",
+    "ps_mehmet_akgun|1|14:00",
+    "ps_giray_gundogdu|0|11:30",
+    "ps_selin_aksoy|2|10:30",
+    "ps_selin_aksoy|0|15:00"
+  ]
+}

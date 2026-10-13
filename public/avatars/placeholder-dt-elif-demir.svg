@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Kurumsal uzman yer tutucu ED">
+  <title>Kurumsal yer tutucu avatar — gerçek kişi fotoğrafı değildir</title>
+  <defs>
+    <linearGradient id="bg-ed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4A6B5D" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#4A6B5D"/>
+    </linearGradient>
+    <clipPath id="circle-ed">
+      <circle cx="128" cy="128" r="128"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#circle-ed)">
+    <rect width="256" height="256" fill="url(#bg-ed)"/>
+    <circle cx="128" cy="128" r="118" fill="none" stroke="#A8C5B5" stroke-width="2" opacity="0.22"/>
+    <!-- leaf / nutrition mark -->
+    <path d="M128 168c28-8 44-28 48-52-24 4-44 20-48 52z" fill="#A8C5B5" opacity="0.35"/>
+    <path d="M128 168c-28-8-44-28-48-52 24 4 44 20 48 52z" fill="#A8C5B5" opacity="0.28"/>
+    <path d="M128 116v52" stroke="#A8C5B5" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
+    <text x="128" y="122" text-anchor="middle" dominant-baseline="middle"
+      font-family="Plus Jakarta Sans, Segoe UI, system-ui, sans-serif"
+      font-size="72" font-weight="700" letter-spacing="0.04em" fill="#FFFFFF">ED</text>
+  </g>
+</svg>

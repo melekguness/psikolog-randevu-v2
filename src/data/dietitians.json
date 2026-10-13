@@ -1,0 +1,72 @@
+{
+  "specialists": [
+    {
+      "id": "dt_ayse_yilmaz",
+      "department": "dietitian",
+      "fullName": "Dyt. Aysu Yar",
+      "title": "Uzman Diyetisyen",
+      "photoUrl": "/avatars/doctor-female.jpg",
+      "bio": "Klinik beslenme ve kilo yönetimi alanında 12 yıllık deneyim.",
+      "specialties": ["Kilo Yönetimi", "Diyabet", "Gebelik Beslenmesi"],
+      "availability": "available",
+      "room": "Sağlık Merkezi A-12",
+      "active": true,
+      "sessionDurationMin": 45,
+      "acceptsOnline": false,
+      "experienceYears": 12,
+      "languages": ["Türkçe"],
+      "rating": 4.9,
+      "workingDays": ["Pzt", "Sal", "Çar", "Per", "Cum"],
+      "certificates": ["Klinik Beslenme", "Diyabet Eğitimi"]
+    },
+    {
+      "id": "dt_mehmet_kaya",
+      "department": "dietitian",
+      "fullName": "Dyt. Misem Civelek",
+      "title": "Uzman Diyetisyen",
+      "photoUrl": "/avatars/doctor-female.jpg",
+      "bio": "Sporcu beslenmesi ve performans odaklı diyet planlaması.",
+      "specialties": ["Sporcu Beslenmesi", "Kas Kazanımı", "Vegan Beslenme"],
+      "availability": "limited",
+      "room": "Sağlık Merkezi A-14",
+      "active": true,
+      "sessionDurationMin": 40,
+      "acceptsOnline": true,
+      "experienceYears": 8,
+      "languages": ["Türkçe", "İngilizce"],
+      "rating": 4.7,
+      "workingDays": ["Pzt", "Çar", "Cum"],
+      "certificates": ["Sporcu Beslenmesi"]
+    },
+    {
+      "id": "dt_elif_demir",
+      "department": "dietitian",
+      "fullName": "Dyt. Aslı Karakoyun",
+      "title": "Diyetisyen",
+      "photoUrl": "/avatars/doctor-female.jpg",
+      "bio": "Çocuk ve ergen beslenmesi, okul çağı sağlıklı alışkanlıklar.",
+      "specialties": ["Çocuk Beslenmesi", "Okul Çağı", "Yeme Bozuklukları Destek"],
+      "availability": "available",
+      "room": "Sağlık Merkezi A-16",
+      "active": true,
+      "sessionDurationMin": 45,
+      "acceptsOnline": false,
+      "experienceYears": 9,
+      "languages": ["Türkçe"],
+      "rating": 4.8,
+      "workingDays": ["Sal", "Çar", "Per", "Cum"],
+      "certificates": ["Pediatrik Beslenme"]
+    }
+  ],
+  "slotTemplate": {
+    "weekdays": ["1", "2", "3", "4", "5"],
+    "hours": ["09:00", "10:00", "11:00", "13:30", "14:30", "15:30", "16:30"]
+  },
+  "bookedSlotKeys": [
+    "dt_ayse_yilmaz|0|09:00",
+    "dt_ayse_yilmaz|0|14:30",
+    "dt_mehmet_kaya|1|11:00",
+    "dt_elif_demir|0|10:00",
+    "dt_elif_demir|2|15:30"
+  ]
+}
